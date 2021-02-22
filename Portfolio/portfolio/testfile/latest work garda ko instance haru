@@ -1,0 +1,3 @@
+{'works':works}
+ works  =LatestWork.objects.all()
+ {% if {{works.class_name== "K"}} %}

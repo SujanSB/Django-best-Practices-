@@ -1,0 +1,13 @@
+{% extends 'main/base.html' %}
+{% block content %}
+    <div class="container mt-4">
+        <form action="" method="post">
+            {% csrf_token %}
+            {{form.as_p}}
+            <br>
+            <button class="btn btn-info m-auto" type="submit">login</button>
+        </form>
+    
+        <h4>If you don't Have an Account ,<a href="/register"> <b>Sign Up</b></a></h4>
+    </div>
+{% endblock %}

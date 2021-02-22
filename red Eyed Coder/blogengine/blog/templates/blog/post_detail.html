@@ -1,0 +1,12 @@
+{% extends 'blog/base_blog.html' %}
+{% block title %}
+    {{post.title}} {{block.super}}
+{% endblock %}
+
+{% block content %}
+     <h1 class="mt-5">{{post.title}}</h1>
+     <br>
+     <P class="mt-5">
+         {{ post.body }}
+     </P>
+{% endblock %}

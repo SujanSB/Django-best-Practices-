@@ -1,0 +1,25 @@
+
+					<div class="box">
+						<div class="img">
+							<img src=" {% static 'images/blog/2.jpg' %}" alt="blog" />
+						</div>
+						<div class="info">
+							<span>2 Mar 2019</span> <span>Design</span>
+						</div>
+						<h3>Make Your Marketing Website</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+						<a href="">Read More</a>
+					</div>
+
+					<div class="box">
+						<div class="img">
+							<img src="{% static 'images/blog/3.jpg' %}" alt="blog" />
+						</div>
+						<div class="info">
+							<span>2 Mar 2019</span> <span>Design</span>
+						</div>
+						<h3>Make Your Marketing Website</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+						<a href="">Read More</a>
+					</div>
+					

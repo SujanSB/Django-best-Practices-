@@ -1,0 +1,17 @@
+{% extends 'theblog/base.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+    <h2>Update Post</h2>
+    <br/>
+    <br/>
+    <div class="form-group">
+        <form  method="post">
+            {% csrf_token %}
+            {{form.as_p}}
+            <button class="btn btn-primary"> Update </button>   
+        </form>
+    </div>
+{% else %}
+You are not Allowed Here !!!!
+{% endif %}
+{% endblock content %}

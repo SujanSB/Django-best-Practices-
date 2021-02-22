@@ -1,0 +1,18 @@
+{% extends 'main/base.html'%} {% block content %}
+<div class="container">
+  {% for tut in tutorials%}
+  <div class="card-group m-4">
+    <div class="card" style="display: flex;">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body text-info">
+        <h5 class="card-title">{{tut.tutorial_title}}</h5>
+        <p class="card-text">{{tut.tutorial_content}}.</p>
+        <p class="card-text">
+          <small class="text-muted">Last updated {{tut.tutorial_published}}</small>
+        </p>
+      </div>
+    </div>
+  </div>
+  {% endfor%}
+</div>
+{% endblock %}

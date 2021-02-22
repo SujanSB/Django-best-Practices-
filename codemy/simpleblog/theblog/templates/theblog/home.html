@@ -1,0 +1,16 @@
+{% extends 'theblog/base.html' %}
+{% block content %}
+<h2> Post</h2>
+{% for post in object_list %}
+    <li><a href="{% url 'article-detail' post.pk %}"> {{ post.title}} </a> - {{ post.author.username }} ---{{ post.post_date }}
+         {% if user.is_authenticated %}
+            -<a href="{% url 'update_post' post.pk %}">[Edit]</a>
+            <small>
+                <a href="{% url 'delete_post' post.pk %}">[Delete]</a>
+            </small>
+         {% endif %}
+          <br> {{ post.body|slice:"50" }} </li>
+          <hr>
+{% endfor %}    
+
+{% endblock content %}

@@ -1,0 +1,150 @@
+/* Contact Me  */
+
+.sec5 {
+    background-color: #f80606;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    width: 90%;
+    margin:20px auto;
+  }
+  .cont-sec {
+    height: auto;
+    display: block;
+  }
+  .cont-title{
+    border-bottom: 1px solid rgb(255, 197, 5);
+  }
+  .cont-title h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    
+  }
+  .upper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .four h2 {
+    color: #fff;
+  }
+  .four {
+    background-color: rgb(2, 6, 245);
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  .fourspan{
+    font-size: 8px!important;
+    text-align: left;
+  }
+  .four i{
+    font-size: 30px;
+    background-color: white;
+    height: 40px;
+    width: 50px;
+    color:black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .lower {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+  }
+  .container3 {
+    /* padding: 20px; */
+    margin-top: 20px;
+  }
+  
+  .container3 h2 {
+    font-size: 20px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+  }
+  
+  .name,
+  .email,
+  .text {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+   
+    padding: 8px 6px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  
+  .name {
+    float: left;
+    width: 280px;
+  }
+  .email {
+    float: right;
+    width: 280px;
+  }
+  .text {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .sec5 button {
+    background-color: black;
+    color: #FFF;
+    width: auto;
+    height: 40px;
+    border: 2px solid rgb(20, 20, 20);
+    text-transform: uppercase;
+    border-radius: 10%;
+    transition: 0.4s linear;
+    cursor: pointer;
+    padding: 5px;
+  }
+  @media only screen and (max-width: 768px)  {
+    .name,
+    .email {
+      width: 100%;
+    }
+    .four{
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    .four h2{
+      font-size: 20px;
+  
+    }
+    .four p{
+      font-size: 15px;
+      text-align: center;
+    }
+    .upper{
+      display: inline-block;
+      
+    }
+    .container6{
+      align-items: center;
+    }
+    .inner-port{
+      padding: 0;
+      text-align: justify;
+    }
+    .inner h2{
+      text-align: justify;
+      font-size: 20px;
+    }
+  
+  
+  }

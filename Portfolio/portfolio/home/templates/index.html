@@ -1,0 +1,408 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MyPortfolio </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+<body>
+
+	<!-- Start Header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="brand-name">
+					<a href="" class="logo">InvalidSB</a>
+				</div>
+				<div class="ham-burger">
+					<i class="fa fa-bars"></i>
+				</div>
+				<div class="navbar">
+					<ul>
+						<li><a href="#home" class="active">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#portfolio">Works</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Start Home -->
+	<section class="home" id="particles-js">
+		<div class="container">
+			<div class="home-content">
+				<div class="block">
+					<h3>WELCOME TO MY WEBSITE</h3>
+					<h2>I'm</h2>
+					<h1 >Suzan Bhattarai</h1>
+					<hr>
+					<div class="cv-btn">
+						<a href="">DownLoad CV</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- End Home -->
+
+	<!-- Start About -->
+	<section class="about-me" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<h1>About Me</h1>
+					<p class="small text-uppercase">Information About Me</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="about-content">
+					<div class="row">
+						<div class="img">
+							<img src="{{about.image.url}}" alt="about-me" />
+						</div>
+						<div class="text">
+							<h4>I'M Sujan Bhattarai</h4>
+							<h6>Full-Stack <span>Web </span> Developer based in <span>Nepal</span> </h6>
+							<p>{{about.short_description}}</p>
+							<p>{{about.description}}</p>
+							<div class="info">
+								<div class="list">
+									<label>Birthday:</label>
+									<p>1st April 1999</p>
+								</div>
+								<div class="list">
+									<label>Email:</label>
+									<p>sujibh18@gmail.com</p>
+								</div>
+								<div class="list">
+									<label>Age:</label>
+									<p>{{about.age}}Yr</p>
+								</div>
+								<div class="list">
+									<label>Phone:</label>
+									<p>+977-9865005564</p>
+								</div>
+								<div class="list">
+									<label>Residence:</label>
+									<p>Nepal</p>
+								</div>
+								<div class="list">
+									<label>Address:</label>
+									<p>KathMandu,Nepal</p>
+								</div>
+							</div>
+							<!-- social links -->
+							<div class="social-links">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-linkedin"></i></a>
+								<a href=""><i class="fa fa-youtube"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About -->
+
+	<!-- Start Services -->
+	<section class="services" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="section-title text-center">
+					<h1>Services</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="service-content">
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-laptop"></i>
+						</div>
+						<h5>Unique Design</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-code"></i>
+						</div>
+						<h5>Make It Simple</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-mobile"></i>
+						</div>
+						<h5>Responsiveness</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- End Services -->
+	<section class="skills">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="skills-content">
+					<div class="row">
+						<div class="section-title">
+							<h1>Professional Skills</h1>
+							<p>I design and develop services for customers of all sizes, specializing in creating
+								stylish, modern websites.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="skill-box">
+							<h6>HTML5</h6>
+							<div class="skill-bar">
+								<div class="skill-bar-in" style="width: 92%">
+									<span>92%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill-box">
+							<h6>BootStrap-4</h6>
+							<div class="skill-bar">
+								<div class="skill-bar-in" style="width:75%">
+									<span>72%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill-box">
+							<h6>Javascript</h6>
+							<div class="skill-bar">
+								<div class="skill-bar-in" style="width:86%">
+									<span>84%</span>
+								</div>
+							</div>
+						</div>
+						<div class="skill-box">
+							<h6>Python-pygame</h6>
+							<div class="skill-bar">
+								<div class="skill-bar-in" style="width:88%">
+									<span>89%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="img">
+					<img src="{% static 'images/Skill.jpg' %} " alt="skill" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Start Skills -->
+
+	<!-- Start Portfolio Work -->
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-title text-center">
+					<h1>Latest Works</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="filter-buttons">
+					<ul id="filter-btns">
+						<li class="active" data-target="all">All</li>
+						<li data-target="branding">Web-Designing</li>
+						<li data-target="photoshop">PhotoGraphy</li>
+						<li data-target="fashion">Poetry</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="portfolio-gallery">
+
+					{%for workwd in workwds %}
+					<div class="item" data-id="branding">
+						<div class="inner">
+							<img src="{{workwd.image.url}}" alt="portfolio" />
+							<div class="overlay">
+								<span class="fa fa-plus"></span>
+								<h4>Web-Designing</h4>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+					
+
+
+
+					{%for workp in workps %}
+					<div class="item" data-id="photoshop">
+						<div class="inner">
+							<img src="{{workp.image.url}}" alt="portfolio" />
+							<div class="overlay">
+								<span class="fa fa-plus"></span>
+								<h4>PhotoGraphy</h4>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+
+
+					{%for workk in workks %}
+					<div class="item" data-id="fashion">
+						<div class="inner">
+							<img src="{{workk.image.url}} " alt="portfolio" />
+							<div class="overlay">
+								<span class="fa fa-plus"></span>
+								<h4>Poetry</h4>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+<hr>
+	<!-- End Portfolio Work -->
+
+	<!-- Start Testimonials -->
+	<section class="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="section-title text-center">
+					<h1>Testimonials</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="testimonials-content">
+					<div class="testi-slider">
+						{% for client in clients %}
+						<div class="slide">
+							<div class="imgs">
+								<!-- <img src="{% static 'images/testimonial/2.png''%}" alt="testi" /> -->
+								<img src="{{client.img.url}}" alt="testi" />
+							</div>
+							<div class="text">
+								<p>{{client.description}}</p>
+								<h6>{{client.name}}</h6>
+								<p>Co-founder</p>
+							</div>
+						</div>
+						{% endfor%}
+					</div>
+					<!-- slide controls -->
+					<div class="slide-controls">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Testimonials -->
+
+	<!-- Start Blogs -->
+	<section class="blogs" id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="section-title text-center">
+					<h1>Latest Blogs</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="blogs-content">
+					{% for blog in blogs %}
+					<div class="box">
+						<div class="img" >
+							<img src="{{blog.image.url}}" alt="blog" style="height: 200px; width:400px;" />
+						</div>
+						<div class="info">
+							<span>{{blog.date}}</span> <span>{{blog.short_desc}}</span>
+						</div>
+						<h3>{{blog.title}}</h3>
+						<p>{{blog.desc}}</p>
+						<a href="">Read More</a>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Blogs -->
+
+	<!-- Start Contact us -->
+	<section class="contact-us" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="section-title text-center">
+					<h1>Let's Get Connected</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="contact-form">
+					<div class="row">
+						<div class="text">
+							<h2>Drop here a line </h2>
+							<p>We are here to answer any Question you may have</p>
+						</div>
+					</div>
+					<form action="/index" method="post">
+					{% csrf_token %}
+					<div class="row space-between">
+						<div class="col-6">
+							<input type="text" class="form-control" name="name" placeholder="Name">
+						</div>
+						<div class="col-6">
+							<input type="text" class="form-control" name="email" placeholder="Email">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<textarea class="form-control"  name="desc" placeholder="Your Comment"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="button text-right">
+							<a href="">Get In Touch</a>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Contact us -->
+	<!-- Start CopyRight -->
+	<section class="copyright">
+		<div class="container">
+			<p> InvalidSB &copy; 2020 </p>
+		</div>
+	</section>
+	<!-- Start CopyRight -->
+
+	<!-- Start Lightbox -->
+	<div class="lightbox hide">
+		<span class="close-lightbox fa fa-close"></span>
+		<img src="{% static 'images/portfolio/6.jpg' %}" alt="portfolio" />
+	</div>
+	<!-- End Lightbox -->
+
+
+	<script src="{% static 'script.js' %}"></script>
+
+</body>
+
+</html>

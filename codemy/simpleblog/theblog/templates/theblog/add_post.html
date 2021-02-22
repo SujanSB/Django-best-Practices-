@@ -1,0 +1,18 @@
+{% extends 'theblog/base.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+<h2>Add blog Post</h2>
+<br/>
+<br/>
+<div class="form-group">
+    <form  method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button class="btn btn-primary"> Add </button>   
+    </form>
+</div>
+{% else %}
+You Cant POst anything Untill You Login.
+<button class="btn btn-secondary">  <a href="{% url 'login'%}" style=" color:aqua">log In</a></button>
+{% endif %}
+{% endblock content %}

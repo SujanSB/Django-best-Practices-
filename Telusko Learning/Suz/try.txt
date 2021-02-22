@@ -1,0 +1,84 @@
+         <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+
+                    <div class="tm-right tm-slideshow tm-slideshow-highlight">
+                        <img src="{% static 'img/tm-img-02.jpg' %}" alt="Image">
+                        <img src="{% static 'img/tm-img-03.jpg' %}" alt="Image">
+                        <img src="{% static 'img/tm-img-01.jpg' %}" alt="Image">
+                    </div> 
+
+                    <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+                        <h2 class="">Asia's most popular places</h2>
+                        <p>Vivamus in massa ullamcorper nunc auctor accumsan ac at arcu. Donec sagittis mattis pharetra. Proin commodo, ante et volutpat pulvinar, arcu arcu ullamcorper diam, id maximus sem tellus id sem. Suspendisse eget rhoncus diam. Fusce urna elit, porta nec ullamcorper id.</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Continue Reading</a>
+                    </div>                        
+
+                </section>
+                <section class="tm-slideshow-section">
+                    <div class="tm-slideshow">
+                        <img src="{% static 'img/tm-img-03.jpg' %}" alt="Image">
+                        <img src="{% static 'img/tm-img-02.jpg' %}" alt="Image">
+                        <img src="{% static 'img/tm-img-01.jpg' %}" alt="Image">
+                    </div>
+                    <div class="tm-slideshow-description tm-bg-primary">
+                        <h2 class="">America's most famous places</h2>
+                        <p>Donec nec laoreet diam, at vehicula ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nec dapibus nunc, quis viverra metus. Morbi eget diam gravida, euismod magna vel, tempor urna.</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                </section>
+
+
+
+
+                {% comment %} aisa ko vvitra ko thau haru lai yeutai banauna change gareko {% endcomment %}
+
+                                       <div class="tm-recommended-place">
+                                <img src="{% static 'img/tm-img-07.jpg' %}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Nullam eget est a nisl</h3>
+                                    <p class="tm-text-highlight">Yangon, Myanmar</p>
+                                    <p class="tm-text-gray">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</p>   
+                                </div>
+                                <div id="preload-hover-img"></div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">$450</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="{% static 'img/tm-img-05.jpg' %}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Proin interdum ullamcorper</h3>
+                                    <p class="tm-text-highlight">Bangkok, Thailand</p>
+                                    <p class="tm-text-gray">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</p>   
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">$460</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                               <div class="tm-recommended-place">
+                                <img src="{% static 'img/tm-img-04.jpg' %}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Lorem ipsum dolor sit</h3>
+                                    <p class="tm-text-highlight">Vientiane, Laos</p>
+                                    <p class="tm-text-gray">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</p>   
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">$470</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>   
+
+
+
+
+
+
+
+
+
+
+                            {% comment %} 
+                            view.py bata hatayeka kiyraharu hun hai yaha  aru ta kei xaina khasai
+                             {% endcomment %}

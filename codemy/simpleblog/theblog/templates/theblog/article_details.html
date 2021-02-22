@@ -1,0 +1,15 @@
+{% extends 'theblog/base.html' %}
+{% block content %}
+<h1> {{ post.title }}</h1>
+<small> By : {{ post.author.username}}</small>
+--{{ post.post_date }}
+{% if user.is_authenticated %}
+    <a href="{% url 'update_post' post.pk %}">[Edit]</a>
+    <small><a href="{% url 'delete_post' post.pk %}">[delete]</a></small>
+{% endif %}
+<hr>
+{{ post.body }}
+
+<br>
+<a href="{% url 'home' %}" class="btn btn-primary">Back</a>
+{% endblock content %}

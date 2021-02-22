@@ -1,0 +1,23 @@
+<div class="item" data-id="branding">
+						<div class="inner">
+							<img src="{% static 'images/portfolio/3.jpg' %} " alt="portfolio" />
+							<div class="overlay">
+								<span class="fa fa-plus"></span>
+								<h4>Web-Designing</h4>
+							</div>
+						</div>
+					</div>
+					<div class="item" data-id="branding">
+						<div class="inner">
+							<img src="{% static 'images/portfolio/6.jpg' %} " alt="portfolio" />
+							<div class="overlay">
+								<span class="fa fa-plus"></span>
+								<h4>Web-Designing</h4>
+							</div>
+						</div>
+					</div>
+
+
+
+
+                    

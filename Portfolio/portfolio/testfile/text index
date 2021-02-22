@@ -1,0 +1,34 @@
+	yo chai testimonials bata for loop lagauna ko lagi taneko ho hai ..hyal gar
+    
+    <div class="slide">
+    					<div class="img">
+    						<img src="{% static 'images/testimonial/2.png' %} " alt="testi" />
+    					</div>
+    					<div class="text">
+    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    						<h6>Nancy Bayers</h6>
+    						<p>Co-founder</p>
+    					</div>
+					</div>
+					
+    				<div class="slide">
+    					<div class="img">
+    						<img src="{% static 'images/testimonial/3.png' %}" alt="testi" />
+    					</div>
+    					<div class="text">
+    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    						<h6>Nancy Bayers</h6>
+    						<p>Co-founder</p>
+    					</div>
+					</div>
+					
+    				<div class="slide">
+    					<div class="img">
+    						<img src="{% static 'images/testimonial/4.png' %}" alt="testi" />
+    					</div>
+    					<div class="text">
+    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    						<h6>Nancy Bayers</h6>
+    						<p>Co-founder</p>
+    					</div>
+    				</div>

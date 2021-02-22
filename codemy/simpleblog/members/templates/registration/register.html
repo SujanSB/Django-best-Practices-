@@ -1,0 +1,14 @@
+{% extends 'theblog/base.html' %}
+{% block content %}
+<h2>Register.........</h2>
+<br/>
+<br/>
+<div class="form-group">
+    <form  method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button class="btn btn-primary">Go</button>   
+    </form>
+</div>
+
+{% endblock content %}
